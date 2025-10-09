@@ -1,0 +1,66 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+* {
+    color:#6b6868 
+}
+
+.paragrafo {
+    color: rgba(61, 61, 61, 0.747)
+}
+ul.topnav {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+    background-color: #f0f0f0; /* opcional */
+}
+
+ul.topnav li:nth-child(3) {
+    margin-left: auto; /* empurra os itens restantes para a direita */
+}
+
+/* Align list items horizontally */
+ul.topnav li {
+    float: left;
+}
+
+/* Style the links */
+ul.topnav li a {
+    display:block;
+    color: white;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+}
+
+/* Add hover effect */
+ul.topnav li a:hover {
+    background-color: #e67d7d;
+}
+
+.linkedin {
+    background-color: blue;
+}
+
+.photo-perfil {
+    border-radius: 50%;
+    margin-left: 2%;
+}
+
+.pagina {
+  background-color: rgb(255, 255, 255);
+  text-align:justify;
+}
+
+.background-img{
+    padding: 10px;
+}
+
+main.myProfile {
+    max-width: 1400px; /* mesmo tamanho da imagem */
+    margin: 0 auto; /* centraliza */
+    padding: 20px; /* opcional: adiciona espaço interno */
+    box-sizing: border-box;
+}
