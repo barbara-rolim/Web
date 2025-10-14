@@ -61,6 +61,8 @@ h3 {
     border: 0.5px solid #ddd;    /* borda leve */
     margin: 15px;             /* distância da seção anterior e da próxima */
     box-shadow: 0 4px 8px rgba(0,0,0,0.05); /* sombra leve */
+    width: 1400px;
+    text-align: left;  
 }
 
 .experience-box {
